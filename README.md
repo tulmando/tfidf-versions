@@ -14,7 +14,7 @@ Specifically, I want to conclude when should we use each variation by showing th
 ## Conclusions
 - It is enough to analyze TF & IDF behaviour separately to understand which variation is suited to each use-case.
 - tf idf variations (code is here: [sim_tf_idf_variations.py](./tfidf/simulation/sim_tf_idf_variations.py))
-![](images/res_sim_tf_idf_variations.png) 
+![](images/res_sim_tf_idf_3_variations.png) 
 - By observing the plots of 3 different IDF variations (right graph): 
     - We should use ProbIDF function when:
         - we want to penalize a term that occurs in more than 50% of document by giving it a negative weight.

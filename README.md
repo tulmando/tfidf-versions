@@ -1,6 +1,9 @@
 # tfidf-versions
+# Description
+This exercise purpose is to analyze 3 different variations of TF*IDF and get some insights and conclusions.
+Specifically, I want to conclude when should we use each variation by showing the differences between them.
 
-## definitions
+## Definitions
 - n_t = number of documents containing the specific word
 - N = total docs in corpus
 - Wiki IDF variations
@@ -8,7 +11,7 @@
     - I will use IDF, SmoothIDF, ProbIDF
     
     
-## conclusions
+## Conclusions
 - It is enough to analyze TF & IDF behaviour separately to understand which variation is suited to each use-case.
 - tf idf variations (code is here: [sim_tf_idf_variations.py](./tfidf/simulation/sim_tf_idf_variations.py))
 ![](images/res_sim_tf_idf_variations.png) 
@@ -34,6 +37,6 @@
     - ￿For giving more weight to the current document (emphasize the localization), we should use the linear variation of the TF formula.
     - In terms of raw tf, the measures will have a very high variance. That is why it is recommended use logarithm to normalize them. Log of tf seems to be the best practiced.
 
-## notes
+## Notes
 - sklearn can be used for calculating tfidf (I avoided it here).
     - For a real world example, I will use it.        

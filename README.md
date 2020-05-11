@@ -1,5 +1,5 @@
 # tfidf-versions
-# Description
+## Description
 This exercise purpose is to analyze 3 different variations of TF*IDF and get some insights and conclusions.
 Specifically, I want to conclude when should we use each variation by showing the differences between them.
 
